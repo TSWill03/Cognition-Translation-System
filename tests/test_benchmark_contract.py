@@ -77,3 +77,23 @@ class EngineTests(unittest.TestCase):
         self.assertEqual(j[0]["id"],"CTS-pt-S01")
         self.assertEqual(j[20]["id"],"CTS-ja-S01")
 if __name__=="__main__":unittest.main()
+
+
+
+class UnicodeNumericRegressionTests(unittest.TestCase):
+    def test_japanese_numbers_adjacent_ideographs(self):
+        self.assertEqual(bench.numbers("実験は84サンプルで72.5パーセント"),["84","72.5"])
+    def test_chinese_numbers_adjacent_characters(self):
+        self.assertEqual(bench.numbers("实验用84个样本测量了72.5%的准确度"),["84","72.5"])
+    def test_bengali_numerals(self):
+        self.assertEqual(bench.numbers("৮৪টি নমুনাসহ ৭২. ৫ শতাংশ"),["84","72.5"])
+    def test_arabic_indic_numerals(self):
+        self.assertEqual(bench.numbers("كانت القيمة ٧٢٫٥"),["72","5"])
+    def test_bengali_omission_is_flagged(self):
+        self.assertEqual(bench.check_numbers("from $9.99 to $12.50","৯.৯ ডলার থেকে বাড়িয়ে ১."),(2,0))
+    def test_basque_lost_digit_is_flagged(self):
+        self.assertEqual(bench.check_numbers("from $9.99 to $12.50","9,99tik 1,50era"),(2,0))
+    def test_japanese_full_case(self):
+        self.assertEqual(bench.check_numbers(
+          "The experiment measured 72.5 percent accuracy with 84 samples.",
+          "実験は84サンプルで72.5パーセントの精度を測定しました。"),(2,1))

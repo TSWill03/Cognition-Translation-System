@@ -8,7 +8,7 @@
     "warmup_ms": 3206.05,
     "sum_translate_ms": 1913.693,
     "numeric_checks": 5,
-    "numeric_checks_passed": 5
+    "numeric_checks_passed": 4
   },
   {
     "language": "es",
@@ -19,7 +19,7 @@
     "warmup_ms": 6896.59,
     "sum_translate_ms": 1124.12,
     "numeric_checks": 5,
-    "numeric_checks_passed": 5
+    "numeric_checks_passed": 4
   },
   {
     "language": "fr",
@@ -30,7 +30,7 @@
     "warmup_ms": 6507.28,
     "sum_translate_ms": 1680.36,
     "numeric_checks": 5,
-    "numeric_checks_passed": 5
+    "numeric_checks_passed": 4
   },
   {
     "language": "de",
@@ -41,7 +41,7 @@
     "warmup_ms": 8021.23,
     "sum_translate_ms": 3211.105,
     "numeric_checks": 5,
-    "numeric_checks_passed": 5
+    "numeric_checks_passed": 4
   },
   {
     "language": "ja",
@@ -52,7 +52,7 @@
     "warmup_ms": 8258.88,
     "sum_translate_ms": 3102.108,
     "numeric_checks": 5,
-    "numeric_checks_passed": 0
+    "numeric_checks_passed": 4
   },
   {
     "language": "zh",
@@ -63,7 +63,7 @@
     "warmup_ms": 8137.91,
     "sum_translate_ms": 2622.981,
     "numeric_checks": 5,
-    "numeric_checks_passed": 0
+    "numeric_checks_passed": 4
   },
   {
     "language": "ar",
@@ -74,7 +74,7 @@
     "warmup_ms": 7004.84,
     "sum_translate_ms": 1556.779,
     "numeric_checks": 5,
-    "numeric_checks_passed": 5
+    "numeric_checks_passed": 4
   },
   {
     "language": "eo",
@@ -85,7 +85,7 @@
     "warmup_ms": 7943.74,
     "sum_translate_ms": 1897.15,
     "numeric_checks": 5,
-    "numeric_checks_passed": 5
+    "numeric_checks_passed": 4
   },
   {
     "language": "eu",
@@ -107,7 +107,7 @@
     "warmup_ms": 7118.96,
     "sum_translate_ms": 1367.483,
     "numeric_checks": 5,
-    "numeric_checks_passed": 5
+    "numeric_checks_passed": 4
   },
   {
     "language": "gl",
@@ -118,7 +118,7 @@
     "warmup_ms": 6858.41,
     "sum_translate_ms": 1361.671,
     "numeric_checks": 5,
-    "numeric_checks_passed": 5
+    "numeric_checks_passed": 4
   },
   {
     "language": "ky",
@@ -141,5 +141,27 @@
     "sum_translate_ms": 1284.116,
     "numeric_checks": 5,
     "numeric_checks_passed": 5
+  },
+  {
+    "language": "ur",
+    "name": "Urdu",
+    "planned": 20,
+    "success": 20,
+    "error": 0,
+    "warmup_ms": 6621.88,
+    "sum_translate_ms": 2447.603,
+    "numeric_checks": 5,
+    "numeric_checks_passed": 3
+  },
+  {
+    "language": "bn",
+    "name": "Bengali",
+    "planned": 20,
+    "success": 20,
+    "error": 0,
+    "warmup_ms": 6677.51,
+    "sum_translate_ms": 1578.484,
+    "numeric_checks": 5,
+    "numeric_checks_passed": 3
   }
 ]

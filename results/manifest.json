@@ -31,5 +31,14 @@
     "Heuristic checks do not measure adequacy",
     "No speech translation measured",
     "Short original English prompts only"
-  ]
+  ],
+  "utc_end": "2026-11-21T01:42:36.788059+00:00",
+  "observed": 300,
+  "success": 300,
+  "error": 0,
+  "note": "Translation executed is not equivalent to linguistically correct translation.",
+  "numeric_metric_version": "unicode_decimal_v2",
+  "numeric_metric_updated_after_inference": true,
+  "numeric_v1_flagged": 20,
+  "translation_content_sha256": "802cfcb5300e445a8c53a86b3d76a1c150c4aec0cf0216071c932e00d905859c"
 }

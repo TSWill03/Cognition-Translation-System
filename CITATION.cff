@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this research code or dataset, please cite this repository and the research report."
+title: "Cognition Translation System (CTS): Exploratory Multilingual Text Translation Benchmark"
+type: software
+authors:
+  - family-names: "Alcântara"
+    given-names: "Wicolly Pedro"
+url: "https://github.com/TSWill03/Cognition-Translation-System"
+repository-code: "https://github.com/TSWill03/Cognition-Translation-System"
+license: MIT
+version: 0.3.0
+date-released: 2026-11-20

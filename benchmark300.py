@@ -17,8 +17,11 @@ def load_prompts(path=ROOT/"prompts.json"):
     if any(not p.get("text","").strip() for p in data): raise ValueError("Empty source")
     return data
 def numbers(s):
-    # Isolated decimal/integer tokens, normalized for comma/dot; unit strings are not evaluated.
-    return [m.replace(",",".") for m in re.findall(r"(?<!\w)\d+(?:[.,]\d+)?(?!\w)",s)]
+    # Unicode decimal digits incl. Bengali/Arabic, and numerals next to CJK ideographs.
+    # Heuristic only: cannot recognize all words/ideographic numeral expressions.
+    import unicodedata
+    matches=re.findall(r"(?<![A-Za-z0-9_])\d+(?:[.,]\s*\d+)?",s)
+    return ["".join(str(unicodedata.decimal(ch)) if ch.isdecimal() else ch for ch in token).replace(" ","").replace(",",".") for token in matches]
 def check_numbers(src,dst):
     orig=numbers(src); found=numbers(dst)
     # Evaluate multiplicity; comma thousands vs decimal ambiguous: diagnostic only.

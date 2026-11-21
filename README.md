@@ -4,6 +4,8 @@
 
 **Status (20 November 2026):** CTS v0.3 research prototype. This repository does **not** provide live meetings, speech recognition, voice synthesis, browser extensions, or an online translation API. These are roadmap items, not existing capabilities.
 
+**Observed text-only results:** **300/300 nonempty model outputs without exceptions**, 15 language pairs, 20 synthetic English prompts, **median inference 82.932 ms per sentence after warm-up**, **median warm-up 6.927 s per language**, 17/75 heuristic numeric alerts (not 17 confirmed translation errors). **No human validation or model-to-model accuracy comparison was performed.** See [research paper](docs/PAPER.md), [full CSV](results/translations.csv), [human review protocol](docs/REVIEW_PROTOCOL.md), and [source bibliography](docs/SOURCES.md).
+
 ## Research experiment: 300 real translations
 
 The matrix is **20 original English sentences × 15 target languages = 300 individual machine-translation invocations**. The same sentences are used for each target.
