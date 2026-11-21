@@ -1,0 +1,92 @@
+[
+  {
+    "language": "pt",
+    "name": "Portuguese",
+    "package_version": "1.9",
+    "result": "installed"
+  },
+  {
+    "language": "de",
+    "name": "German",
+    "package_version": "1.3",
+    "result": "downloaded_in_7.85s;installed"
+  },
+  {
+    "language": "fr",
+    "name": "French",
+    "package_version": "1.9",
+    "result": "downloaded_in_9.75s;installed"
+  },
+  {
+    "language": "es",
+    "name": "Spanish",
+    "package_version": "1.0",
+    "result": "downloaded_in_14.98s;installed"
+  },
+  {
+    "language": "ja",
+    "name": "Japanese",
+    "package_version": "1.1",
+    "result": "downloaded_in_8.14s;installed"
+  },
+  {
+    "language": "zh",
+    "name": "Chinese",
+    "package_version": "1.9",
+    "result": "downloaded_in_9.04s;installed"
+  },
+  {
+    "language": "eo",
+    "name": "Esperanto",
+    "package_version": "1.5",
+    "result": "downloaded_in_9.34s;installed"
+  },
+  {
+    "language": "ar",
+    "name": "Arabic",
+    "package_version": "1.0",
+    "result": "downloaded_in_12.68s;installed"
+  },
+  {
+    "language": "eu",
+    "name": "Basque",
+    "package_version": "1.9",
+    "result": "downloaded_in_9.15s;installed"
+  },
+  {
+    "language": "gl",
+    "name": "Galician",
+    "package_version": "1.9",
+    "result": "downloaded_in_5.45s;installed"
+  },
+  {
+    "language": "ga",
+    "name": "Irish",
+    "package_version": "1.1",
+    "result": "downloaded_in_9.49s;installed"
+  },
+  {
+    "language": "ky",
+    "name": "Kyrgyz",
+    "package_version": "1.4",
+    "result": "downloaded_in_10.95s;installed"
+  },
+  {
+    "language": "bn",
+    "name": "Bengali",
+    "package_version": "1.9",
+    "result": "downloaded_in_3.39s;installed"
+  },
+  {
+    "language": "ur",
+    "name": "Urdu",
+    "package_version": "1.9",
+    "result": "downloaded_in_10.64s;installed"
+  },
+  {
+    "language": "sw",
+    "name": "Swahili",
+    "package_version": "1.11",
+    "result": "downloaded_in_14.6s;installed"
+  }
+]

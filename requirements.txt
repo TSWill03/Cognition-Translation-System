@@ -1,0 +1,2 @@
+argostranslate>=1.11,<2
+# Optional interface: python -m pip install -r requirements-ui.txt

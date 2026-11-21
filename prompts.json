@@ -1,0 +1,22 @@
+[
+  {"id":"S01","domain":"cotidiano","text":"The library opens at nine o'clock."},
+  {"id":"S02","domain":"literatura","text":"Selia Fastarrow met a traveler near Fallen Wall at sunrise."},
+  {"id":"S03","domain":"tecnologia","text":"The term neural network refers to a computational model."},
+  {"id":"S04","domain":"ciencia","text":"The experiment measured 72.5 percent accuracy with 84 samples."},
+  {"id":"S05","domain":"energia","text":"The device consumed 15 kWh during a 24-hour test."},
+  {"id":"S06","domain":"reuniao","text":"The meeting will begin on November 20, 2026, at 14:30 UTC."},
+  {"id":"S07","domain":"seguranca","text":"Do not restart the server before saving the backup."},
+  {"id":"S08","domain":"redes","text":"If the network fails, switch to offline mode."},
+  {"id":"S09","domain":"ambiguidade","text":"Mira called her sister after she returned from school."},
+  {"id":"S10","domain":"reuniao","text":"Can you hear the interpreter clearly?"},
+  {"id":"S11","domain":"entidades","text":"Please translate my question, but preserve the product name CTS."},
+  {"id":"S12","domain":"saude","text":"A patient described a mild headache after lunch."},
+  {"id":"S13","domain":"ambiente","text":"The river flooded because the rain continued all night."},
+  {"id":"S14","domain":"juridico","text":"This agreement shall not transfer ownership of the documents."},
+  {"id":"S15","domain":"interface","text":"Click the blue button to export the translated report."},
+  {"id":"S16","domain":"tecnologia","text":"The server responded in 320 milliseconds."},
+  {"id":"S17","domain":"cultura","text":"The musician played a quiet melody during the ceremony."},
+  {"id":"S18","domain":"agricultura","text":"The farmer planted rice near the village."},
+  {"id":"S19","domain":"financas","text":"The price increased from $9.99 to $12.50."},
+  {"id":"S20","domain":"discurso","text":"She said, 'I am ready,' and then closed the door."}
+]

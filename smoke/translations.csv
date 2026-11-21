@@ -1,0 +1,3 @@
+﻿id,sentence_id,domain,src_lang,tgt_lang,tgt_name,low_resource_candidate,source_text,output_text,input_sha256,duration_ms,status,length_ratio,numbers_expected,numbers_preserved,error
+CTS-pt-S01,S01,cotidiano,en,pt,Portuguese,0,The library opens at nine o'clock.,A biblioteca abre às nove horas.,95ff353813cf77aa5071967392a20f62b25d6408944f0f633198d45a77f1eaba,48.012,success,0.941,0,,
+CTS-pt-S02,S02,literatura,en,pt,Portuguese,0,Selia Fastarrow met a traveler near Fallen Wall at sunrise.,Selia Fastarrow encontrou um viajante perto de Fallen Wall ao nascer do sol.,ce0f957869113933e68a077bd695b1fd60f5e890f256456388bfa2bc0b3bd796,112.71,success,1.288,0,,

@@ -1,0 +1,145 @@
+[
+  {
+    "language": "pt",
+    "name": "Portuguese",
+    "planned": 20,
+    "success": 20,
+    "error": 0,
+    "warmup_ms": 3206.05,
+    "sum_translate_ms": 1913.693,
+    "numeric_checks": 5,
+    "numeric_checks_passed": 5
+  },
+  {
+    "language": "es",
+    "name": "Spanish",
+    "planned": 20,
+    "success": 20,
+    "error": 0,
+    "warmup_ms": 6896.59,
+    "sum_translate_ms": 1124.12,
+    "numeric_checks": 5,
+    "numeric_checks_passed": 5
+  },
+  {
+    "language": "fr",
+    "name": "French",
+    "planned": 20,
+    "success": 20,
+    "error": 0,
+    "warmup_ms": 6507.28,
+    "sum_translate_ms": 1680.36,
+    "numeric_checks": 5,
+    "numeric_checks_passed": 5
+  },
+  {
+    "language": "de",
+    "name": "German",
+    "planned": 20,
+    "success": 20,
+    "error": 0,
+    "warmup_ms": 8021.23,
+    "sum_translate_ms": 3211.105,
+    "numeric_checks": 5,
+    "numeric_checks_passed": 5
+  },
+  {
+    "language": "ja",
+    "name": "Japanese",
+    "planned": 20,
+    "success": 20,
+    "error": 0,
+    "warmup_ms": 8258.88,
+    "sum_translate_ms": 3102.108,
+    "numeric_checks": 5,
+    "numeric_checks_passed": 0
+  },
+  {
+    "language": "zh",
+    "name": "Chinese",
+    "planned": 20,
+    "success": 20,
+    "error": 0,
+    "warmup_ms": 8137.91,
+    "sum_translate_ms": 2622.981,
+    "numeric_checks": 5,
+    "numeric_checks_passed": 0
+  },
+  {
+    "language": "ar",
+    "name": "Arabic",
+    "planned": 20,
+    "success": 20,
+    "error": 0,
+    "warmup_ms": 7004.84,
+    "sum_translate_ms": 1556.779,
+    "numeric_checks": 5,
+    "numeric_checks_passed": 5
+  },
+  {
+    "language": "eo",
+    "name": "Esperanto",
+    "planned": 20,
+    "success": 20,
+    "error": 0,
+    "warmup_ms": 7943.74,
+    "sum_translate_ms": 1897.15,
+    "numeric_checks": 5,
+    "numeric_checks_passed": 5
+  },
+  {
+    "language": "eu",
+    "name": "Basque",
+    "planned": 20,
+    "success": 20,
+    "error": 0,
+    "warmup_ms": 10154.6,
+    "sum_translate_ms": 1498.244,
+    "numeric_checks": 5,
+    "numeric_checks_passed": 3
+  },
+  {
+    "language": "ga",
+    "name": "Irish",
+    "planned": 20,
+    "success": 20,
+    "error": 0,
+    "warmup_ms": 7118.96,
+    "sum_translate_ms": 1367.483,
+    "numeric_checks": 5,
+    "numeric_checks_passed": 5
+  },
+  {
+    "language": "gl",
+    "name": "Galician",
+    "planned": 20,
+    "success": 20,
+    "error": 0,
+    "warmup_ms": 6858.41,
+    "sum_translate_ms": 1361.671,
+    "numeric_checks": 5,
+    "numeric_checks_passed": 5
+  },
+  {
+    "language": "ky",
+    "name": "Kyrgyz",
+    "planned": 20,
+    "success": 20,
+    "error": 0,
+    "warmup_ms": 6879.2,
+    "sum_translate_ms": 1635.75,
+    "numeric_checks": 5,
+    "numeric_checks_passed": 4
+  },
+  {
+    "language": "sw",
+    "name": "Swahili",
+    "planned": 20,
+    "success": 20,
+    "error": 0,
+    "warmup_ms": 6927.06,
+    "sum_translate_ms": 1284.116,
+    "numeric_checks": 5,
+    "numeric_checks_passed": 5
+  }
+]

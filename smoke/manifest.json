@@ -1,0 +1,26 @@
+{
+  "design": "CTS-TEXT-300-v1",
+  "text_only": true,
+  "source_language": "en",
+  "targets": [
+    "pt"
+  ],
+  "planned": 2,
+  "prompt_count": 20,
+  "source_corpus_sha256": "7323929fd6abdde4892a63042451dd790b59751ed97b35d9c777a33c6ad0391e",
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "argos_version": null,
+  "utc_start": "2026-11-21T01:40:09.966802+00:00",
+  "limitations": [
+    "No human reference translations",
+    "Heuristic checks do not measure adequacy",
+    "No speech translation measured",
+    "Short original English prompts only"
+  ],
+  "utc_end": "2026-11-21T01:40:13.412646+00:00",
+  "observed": 2,
+  "success": 2,
+  "error": 0,
+  "note": "Translation executed is not equivalent to linguistically correct translation."
+}

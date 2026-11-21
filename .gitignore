@@ -1,0 +1,19 @@
+# Never publish local runtime or credentials
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+*.log
+results/private/
+results/*.tmp
+.DS_Store
+Thumbs.db
