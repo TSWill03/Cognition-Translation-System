@@ -1,0 +1,24 @@
+{
+  "pt": [
+    {"id":"PT01","domain":"cotidiano","text":"A biblioteca municipal fecha às seis da tarde."},
+    {"id":"PT02","domain":"literatura","text":"Lívia encontrou uma carta escondida sob a escada antiga."},
+    {"id":"PT03","domain":"tecnologia","text":"O roteador reiniciou depois da atualização do sistema."},
+    {"id":"PT04","domain":"ciencia","text":"A amostra continha 48 partículas por mililitro."},
+    {"id":"PT05","domain":"energia","text":"O painel solar gerou 12,5 kWh em um dia nublado."},
+    {"id":"PT06","domain":"reuniao","text":"A reunião foi adiada para terça-feira, às 10h30."},
+    {"id":"PT07","domain":"seguranca","text":"Faça uma cópia de segurança antes de atualizar o servidor."},
+    {"id":"PT08","domain":"redes","text":"A conexão caiu quando o cabo de rede foi desconectado."},
+    {"id":"PT09","domain":"ambiguidade","text":"Maria contou à Ana que sua irmã havia chegado."},
+    {"id":"PT10","domain":"reuniao","text":"Você consegue ouvir a tradução sem atraso?"},
+    {"id":"PT11","domain":"entidades","text":"Mantenha o nome Cognition Translation System no relatório."},
+    {"id":"PT12","domain":"saude","text":"O enfermeiro registrou a temperatura do paciente."},
+    {"id":"PT13","domain":"ambiente","text":"A chuva forte interrompeu a coleta de amostras."},
+    {"id":"PT14","domain":"juridico","text":"A assinatura eletrônica não altera o prazo do contrato."},
+    {"id":"PT15","domain":"interface","text":"Toque no botão verde para concluir o cadastro."},
+    {"id":"PT16","domain":"tecnologia","text":"O serviço respondeu em 250 milissegundos."},
+    {"id":"PT17","domain":"cultura","text":"A orquestra apresentou uma canção tradicional."},
+    {"id":"PT18","domain":"agricultura","text":"O produtor colheu milho antes da chegada da tempestade."},
+    {"id":"PT19","domain":"financas","text":"O desconto passou de R$ 19,90 para R$ 17,50."},
+    {"id":"PT20","domain":"discurso","text":"Ela respondeu: 'Ainda não terminei', e saiu da sala."}
+  ]
+}

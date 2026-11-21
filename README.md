@@ -93,3 +93,15 @@ Author/maintainer: **Wicolly Pedro Alcântara**. See `docs/PAPER.md` for referen
 - FLORES-200: https://github.com/facebookresearch/flores
 - COMET: https://aclanthology.org/2020.emnlp-main.213/
 - Free publication outlets: https://joss.theoj.org/about and https://zenodo.org/
+
+
+## Experimental bidirectional translation and voice pilot (branch proposal)
+
+New separate research tools (not part of the 20 Nov 2026 Text-300 results):
+
+- Independent bidirectional EN↔PT: 20 original English sentences + 20 separately written Portuguese prompts. Planned 40 real translations, not yet reported. Use benchmark_bidirectional.py --mode independent --langs pt.
+- Roundtrip for EN↔15 languages: planned 600 calls (EN→X then generated X→EN). Reverse inputs are machine-produced, **not** independently validated or a translation quality benchmark. Use benchmark_bidirectional.py --mode roundtrip after installing direct reverse pairs.
+- Experimental turn-based PT↔EN audio (not meetings or real-time): local browser WAV → faster-whisper ASR → Argos MT → Piper TTS, with independent stages. See cts_voice_ui.py and voice_pipeline.py.
+- Unit tests use mocks; **real reverse model inference and actual microphone/synthesis have not been validated in this branch**. Do not claim field performance yet.
+
+See [Bidirectional and voice protocol](docs/BIDIRECTIONAL_VOICE_MVP.md), [reverse corpus](prompts_reverse.json), and [optional voice dependencies](requirements-voice.txt). New experimental results belong in distinct local folders; published 300 historical outputs remain unchanged. Piper and voice checkpoints require separate license review before commercial distribution.
