@@ -18,4 +18,4 @@ jobs:
       - name: Contract and regression tests (no model download)
         run: python -m unittest discover -s tests -v
       - name: Syntax checks
-        run: python -m compileall -q benchmark300.py install_models.py tests cts_ui.py
+        run: python -m compileall -q benchmark300.py install_models.py benchmark_bidirectional.py install_reverse_models.py voice_pipeline.py cts_ui.py cts_voice_ui.py tests
