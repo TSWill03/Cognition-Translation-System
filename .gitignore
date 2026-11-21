@@ -17,3 +17,10 @@ results/private/
 results/*.tmp
 .DS_Store
 Thumbs.db
+
+# Local voice model weights and new experimental data (not benchmark publications)
+models/
+results/bidirectional*/
+results/roundtrip*/
+results/reverse_installation.json
+smoke/bidirectional*/
