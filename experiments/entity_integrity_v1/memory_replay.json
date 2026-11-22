@@ -1,0 +1,8 @@
+{
+  "approved_fixtures": 30,
+  "lookups": 3000,
+  "exact_hits": 3000,
+  "changed_context_misses": 30,
+  "seconds": 0.000921,
+  "scope": "in-memory simulated approval; not measured translation quality or persisted user memory"
+}
