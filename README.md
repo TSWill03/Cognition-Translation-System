@@ -73,6 +73,17 @@ The intended matrix contains 300 rows but **only actual `status=success` outputs
 - With low-resource languages, claims of adequate translation require human evaluation by competent speakers and preferably parallel references such as FLORES-200.
 - Research planning, test scripts and manuscript drafting were **assisted by OpenAI ChatGPT**. Operational outcomes are distinguished from analysis and editorial interpretation.
 
+## Local text runtime (experimental API v1)
+
+See [docs/TEXT_RUNTIME.md](docs/TEXT_RUNTIME.md). The reusable Python runtime in
+`cts_text.py` supports direct installed models, CPU batching and optional CUDA
+with verified startup fallback. Use `benchmark_profiles.py --out <local-dir>`
+for five CPU/GPU configurations, original bilingual test cases and optional
+private chapter inputs, then `review_server.py --root <local-dir>` for blind human
+review on loopback. Do not commit private input, output or ratings. Numerical
+and character diagnostics are not human quality scores. This text runtime
+does not import audio modules.
+
 ## Integration and roadmap
 
 Current: text-only local translation; Argos benchmarking; raw outputs; regression tests; local Streamlit research demo.
