@@ -1,0 +1,113 @@
+{
+  "cases": 300,
+  "observed": 2436,
+  "success": 2436,
+  "method": "Original synthetic corpus, warmed batched inference, single run. Per-case time is amortized batch time; H includes prior candidate costs. No human rating. No private book text.",
+  "python": "3.10.11",
+  "runtime": "4.8.5",
+  "warmups": [
+    {
+      "pair": "en-pt",
+      "seconds": 7.416,
+      "identity": {
+        "api_version": 1,
+        "runtime_sha256": "ef1f63ff74a5b8e0cb510f7b7bddad3d8861a6c89d2a30cf6e42c09e9c3abe73",
+        "source": "en",
+        "target": "pt",
+        "profile": "cuda",
+        "model": {
+          "package": "translate-en_pt-1_9",
+          "version": "1.9",
+          "weights_sha256": "a68dd89c9d226e09cef948a01ded22bede8858326af89644f1b715efe39e7018"
+        },
+        "argos": "1.11.0",
+        "ctranslate2": "4.9.0",
+        "batch_tokens": 1024,
+        "beam_size": 4,
+        "threads": 4,
+        "compute_type": "default",
+        "chunk_type": "ChunkType.ARGOSTRANSLATE",
+        "serial_settings": [
+          "cpu",
+          "auto",
+          4,
+          32,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "pair": "pt-en",
+      "seconds": 1.393,
+      "identity": {
+        "api_version": 1,
+        "runtime_sha256": "ef1f63ff74a5b8e0cb510f7b7bddad3d8861a6c89d2a30cf6e42c09e9c3abe73",
+        "source": "pt",
+        "target": "en",
+        "profile": "cuda",
+        "model": {
+          "package": "translate-pt_en-1_9",
+          "version": "1.9",
+          "weights_sha256": "d0baa028926f7eceb6e8bcc8d75bd9ed4184665ff1702b93d580e3e2046ddc18"
+        },
+        "argos": "1.11.0",
+        "ctranslate2": "4.9.0",
+        "batch_tokens": 1024,
+        "beam_size": 4,
+        "threads": 4,
+        "compute_type": "default",
+        "chunk_type": "ChunkType.ARGOSTRANSLATE",
+        "serial_settings": [
+          "cpu",
+          "auto",
+          4,
+          32,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "profile": "I_ner",
+      "source": "en",
+      "model": "en_core_web_sm",
+      "version": "3.8.0",
+      "ner_seconds": 1.376
+    },
+    {
+      "profile": "I_ner",
+      "source": "pt",
+      "model": "pt_core_news_sm",
+      "version": "3.8.0",
+      "ner_seconds": 0.477
+    },
+    {
+      "profile": "G_llm_candidate",
+      "model": "qwen3:4b",
+      "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+      "pilot_cases": [
+        "en-00-00",
+        "en-05-01",
+        "en-05-02",
+        "en-05-03",
+        "en-05-04",
+        "en-05-05",
+        "pt-00-00",
+        "pt-05-03",
+        "pt-05-01",
+        "pt-05-02",
+        "pt-05-04",
+        "pt-05-05"
+      ],
+      "endpoint": "local loopback",
+      "options": {
+        "temperature": 0,
+        "num_ctx": 2048,
+        "num_predict": 256,
+        "think": false
+      }
+    }
+  ],
+  "results_sha256": "f0c1bee3144432a47738701ef8f897c6122968d75aa509b6153a1cb681c5dc92"
+}
